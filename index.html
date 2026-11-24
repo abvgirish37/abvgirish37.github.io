@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ABV Girish | Web Developer</title>
+  <meta name="description" content="Portfolio of ABV Girish, Computer Science graduate and web developer from Hyderabad." />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="nav" id="top">
+    <a href="#home" class="logo" aria-label="Go to home">ABV<span>.</span></a>
+    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="main-navigation" aria-label="Open navigation">
+      <span></span><span></span>
+    </button>
+    <nav id="main-navigation" aria-label="Main navigation">
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#experience">Experience</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home" class="hero">
+      <div class="hero-text">
+        <p class="eyebrow"><span class="status-dot"></span> Available for opportunities</p>
+        <h1>ABV <span class="grad">Girish</span><span class="title-dot">.</span></h1>
+        <p class="sub">Web Developer crafting thoughtful digital experiences from Hyderabad, India.</p>
+        <div class="cta">
+          <a href="#projects" class="btn primary">Explore my work <span aria-hidden="true">&rarr;</span></a>
+          <a href="#contact" class="btn ghost">Let's connect</a>
+        </div>
+      </div>
+      <div class="hero-photo">
+        <img src="girish image.jpeg" alt="Portrait of ABV Girish in a grey blazer, smiling outdoors" width="1000" height="1200" />
+        <div class="photo-note">
+          <span>Based in</span>
+          <strong>Hyderabad, IN</strong>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section reveal">
+      <h2>About me</h2>
+      <p>
+        I'm a Computer Science and Engineering graduate from SVIT (JNTUH), Class of 2026.
+        I enjoy building clean, useful websites and I'm looking to start my career in an
+        organization where I can apply what I know, learn from real-world work, and
+        contribute to the team's success while growing personally and professionally.
+      </p>
+      <div class="stats">
+        <div><b data-count="6">0</b><span>Months web dev internship</span></div>
+        <div><b data-count="2">0</b><span>Academic projects</span></div>
+        <div><b data-count="1">0</b><span>IBM certification</span></div>
+      </div>
+    </section>
+
+    <section id="skills" class="section reveal">
+      <h2>Skills</h2>
+      <h3 class="group">Languages</h3>
+      <div class="chips"><span>Python</span><span>HTML5</span><span>CSS3</span><span>JavaScript</span></div>
+      <h3 class="group">Tools &amp; Platforms</h3>
+      <div class="chips"><span>VS Code</span><span>Git</span><span>MS Office</span><span>GoDaddy Hosting</span></div>
+      <h3 class="group">Core Concepts</h3>
+      <div class="chips"><span>DBMS</span><span>Data Structures</span><span>Operating Systems</span><span>Machine Learning</span></div>
+    </section>
+
+    <section id="experience" class="section reveal">
+      <h2>Experience &amp; Education</h2>
+      <div class="timeline">
+        <div class="item">
+          <span class="date">Nov 2025 &ndash; Apr 2026</span>
+          <h3>Web Developer Intern &middot; BG Enterprises</h3>
+          <p>Developed websites with HTML, CSS and JavaScript, then built and hosted them through the GoDaddy portal. Gained hands-on experience in CSS3, JavaScript, HTML5 and web maintenance.</p>
+        </div>
+        <div class="item">
+          <span class="date">2025</span>
+          <h3>Artificial Intelligence Fundamentals &middot; IBM</h3>
+          <p>Completed IBM's certification covering the fundamentals of AI.</p>
+        </div>
+        <div class="item">
+          <span class="date">2026</span>
+          <h3>B.Tech, Computer Science &amp; Engineering &middot; SVIT, JNTUH</h3>
+          <div class="grade">
+            <div class="grade-heading"><label for="btech-cgpa">CGPA</label><strong>7.22 / 10</strong></div>
+            <progress id="btech-cgpa" max="10" value="7.22">7.22 out of 10</progress>
+          </div>
+        </div>
+        <div class="item">
+          <span class="date">2022</span>
+          <h3>Class XII (Intermediate)</h3>
+          <div class="grade">
+            <div class="grade-heading"><label for="intermediate-percentage">Percentage</label><strong>62%</strong></div>
+            <progress id="intermediate-percentage" max="100" value="62">62%</progress>
+          </div>
+        </div>
+        <div class="item">
+          <span class="date">2020</span>
+          <h3>Class X (CBSE)</h3>
+          <div class="grade">
+            <div class="grade-heading"><label for="ssc-cgpa">CGPA</label><strong>6.8 / 10</strong></div>
+            <progress id="ssc-cgpa" max="10" value="6.8">6.8 out of 10</progress>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="section reveal">
+      <h2>Projects</h2>
+      <div class="cards">
+        <article class="card">
+          <h3>GPT MBNR Alumni Portal</h3>
+          <p>Developed a website for the GPT MBNR Alumni Association, with a clean landing page that connects alumni worldwide and supports campus growth.</p>
+          <a href="https://gptmbnraa.org/" target="_blank" rel="noopener noreferrer">Visit website</a>
+          <div class="tags"><span>HTML</span><span>CSS</span><span>JavaScript</span><span>VS Code</span></div>
+        </article>
+        <article class="card">
+          <h3>Hotel Booking Cancellation Prediction</h3>
+          <p>Ensemble machine learning models (Random Forest and XGBoost) that study booking patterns to find the key drivers of cancellations. My role: data management.</p>
+          <div class="tags"><span>Python</span><span>XGBoost</span><span>Random Forest</span></div>
+        </article>
+      </div>
+    </section>
+
+    <section id="contact" class="section reveal">
+      <h2>Let's talk</h2>
+      <p>I'm open to fresher roles and opportunities. Feel free to reach out.</p>
+      <div class="chips">
+        <a href="mailto:abvgirish37@gmail.com">abvgirish37@gmail.com</a>
+        <a href="tel:+918712933229">+91 87129 33229</a>
+        <a href="https://www.linkedin.com/in/abv-girish489472274" target="_blank" rel="noopener">LinkedIn</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>&copy; <span id="year"></span> ABV Girish &middot; Hyderabad, Telangana</footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
